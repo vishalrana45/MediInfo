@@ -80,11 +80,11 @@ mediinfo/
 
 ---
 
-## ⚠️ Medical Disclaimer
+⚠️ Medical Disclaimer
 MediInfo is an informational medical tool designed to support patient safety and health literacy. It is not a substitute for professional medical advice, clinical diagnosis, or physician consultations. In life-threatening emergencies, immediately contact local emergency services (112 / 102 / 911).
 
 ---
 
-## 👤 Author & Maintainer
-- **Vishal Rana** ([@vishalrana45](https://github.com/vishalrana45))
-- Email: `vishalrana8999@gmail.com`
+👤 Author & Maintainer
+- Vishal Rana
+- Email: vishalrana8999@gmail.com
