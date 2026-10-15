@@ -1,0 +1,7 @@
+{
+  "name": "MediInfo",
+  "description": "Web Medicine Intelligence & Pill Identification. Instant Medicine Lookup & Pill Scanner. Verified Uses, Safe Dosages & Warnings.",
+  "requestFramePermissions": ["camera", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
