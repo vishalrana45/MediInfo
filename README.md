@@ -1,11 +1,4 @@
-# MediInfo — Web Medicine Intelligence & Healthcare Radar 🏥💊
-
-[![React](https://img.shields.io/badge/React-19.0-blue.svg)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-6.x-purple.svg)](https://vitejs.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.x-38B2AC.svg)](https://tailwindcss.com/)
-[![Google Gemini](https://img.shields.io/badge/Google%20Gemini-3.8%20Flash-orange.svg)](https://ai.google.dev/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# MediInfo — Web Medicine Intelligence & Healthcare Radar..🏥💊
 
 > **MediInfo** is a clinical-grade medicine intelligence and patient safety web application. It combines computer vision, multimodal AI, family medication tracking, and a live healthcare network to empower families and patients with verified drug information, emergency services, and safe pharmaceutical management.
 
@@ -61,51 +54,6 @@
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-- **Node.js**: v18.0.0 or higher
-- **npm** or **bun**
-- (Optional) **Gemini API Key**: Set `GEMINI_API_KEY` in `.env` for AI visual scanner and assistant features.
-
-### Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/vishalrana45/MediInfo.git
-   cd MediInfo
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Configure Environment Variables**:
-   Copy `.env.example` to `.env`:
-   ```bash
-   cp .env.example .env
-   ```
-   Add your keys:
-   ```env
-   GEMINI_API_KEY=your_gemini_api_key_here
-   VITE_GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
-   ```
-
-4. **Start the Development Server**:
-   ```bash
-   npm run dev
-   ```
-   The app will run at `http://localhost:3000`.
-
-5. **Build for Production**:
-   ```bash
-   npm run build
-   npm start
-   ```
-
----
-
 ## 📁 Project Architecture
 
 ```
@@ -129,13 +77,6 @@ mediinfo/
 ├── package.json            # Scripts & dependencies
 ├── vite.config.ts          # Vite build configuration
 └── README.md               # Documentation
-```
-
----
-
-## 🔒 Security & Privacy Notice
-- MediInfo stores private cabinet data and dose logs locally in the browser (`localStorage`) for patient confidentiality.
-- All AI queries and vision processing are transmitted securely via server-side endpoints without client-side API key exposure.
 
 ---
 
@@ -146,5 +87,4 @@ MediInfo is an informational medical tool designed to support patient safety and
 
 ## 👤 Author & Maintainer
 - **Vishal Rana** ([@vishalrana45](https://github.com/vishalrana45))
-- Repository: [vishalrana45/MediInfo](https://github.com/vishalrana45/MediInfo)
 - Email: `vishalrana8999@gmail.com`
